@@ -1,0 +1,369 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.Carint-home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.Carint-home h6 {
+    font-family: sans-serif;
+    font-size: 20px;
+    color:#f67568;
+}
+
+.Carint-home a {
+    color: #dee1e3;
+}
+
+.my-btn {
+    border: 1px solid #dee1e3;
+    width: 5%;
+    border-radius: 5px;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px;
+}
+
+/* <!-- Carint-section END  -->  */
+
+.world-pro-img img {
+    width: 100%;
+    height: 450px;
+}
+
+.tex-box h2 {
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    font-size: 40px;
+    color: #28a3c3;
+    
+
+}
+
+.tex-box  p {
+    position: absolute;
+    top: 260px;
+    left: 400px;
+    width: 42%;
+    text-align: center;
+    font-size: 20px;
+    color: #c6c1bc;
+    margin-top: 20px;
+}
+
+/* growit section  end  */
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+}
+
+.desing {
+    padding: 40px 0px;
+}
+
+.info-img img {
+    width: 100%;
+    height: 350px;
+    margin: 30px;
+    border-radius: 100%;
+
+}
+
+.learn h3 {
+    color: #28a3c3;
+    margin-top: 20px;
+}
+
+.learn p {
+  width: 100%;
+  margin-top: 20px;
+  color: #c6c1bc;
+}
+
+.search {
+  margin-top: 20px;
+}
+
+.search h3 {
+    color: #28a3c3;
+    margin-top: 30px;
+}
+.search p {
+    width: 100%;
+    margin-top: 20px;
+    color: #c6c1bc;
+}
+
+.one {
+    display: flex;
+    margin: 40px;
+    padding-left: 40px; 
+    
+}
+
+.Shipment p {
+    width: 100%;
+    margin-top: 20px;
+    color: #c6c1bc;
+}
+
+.Shipment h3 {
+    color: #28a3c3;
+    margin-top: 30px;
+}
+
+.facilis p {
+    width: 100%;
+    margin-top: 20px;
+    color: #c6c1bc;
+}
+
+.facilis h3 {
+    color: #28a3c3;
+    margin-top: 30px;
+}
+
+/* <!-- desing section  end  -->  */
+
+
+
+.Track-section {   
+ padding: 50px 0px;
+ width: 100%;
+ height: 400px;
+ background-color: #f67568;
+}
+
+.mate-box h2 {
+    padding-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 32px;
+    width: 100%;
+    color:#FFF;
+}
+
+.mate-box p {
+    margin-left: 300px;
+    width: 60%;
+    margin-top: 40px;
+    text-align: center;
+    color: #c6c1bc;
+}
+
+.title {
+    margin-left: 660px;
+    
+}
+
+.title h5 {
+    margin-top: 20px;
+    color: #dee1e3;
+}
+
+.title p {
+    
+    margin-top: 20px;
+    color: #c2cdd4;
+}
+
+
+
+
+/* Track-section end  */
+
+
+.eiusmod img   {
+  width: 80%;
+  height: 170px;
+  margin-top: 20px;
+}
+
+
+
+.time-box h2 {
+    margin-top: 20px;
+}
+
+.time-box p {
+    width: 60%;
+    margin-top: 20px;
+}
+
+
+/* manga-name end   */
+
+
+
+.style-box {
+    padding: 0px 0px;
+}
+
+.TRANSPORT h2 {
+    width: 100%;
+    font-size: 42px;
+    padding-left: 500px;
+    color: #cac2c2;
+
+}
+
+.magnam a {
+    margin: 130px;
+    color: #c2cdd4;
+    margin-top: 20px;
+}
+
+.magnam {
+    padding: 30px 0px;
+}
+
+.magnam a i {
+    margin: 10px;
+    color: #f67568;
+}
+
+hr {
+    margin-top: 20px;
+    
+}
+
+
+
+.Quote p {
+    padding-left: 500px;
+    color: #c6c1bc;
+}
+
+
+
+
+@media (max-width: 420px) {
+   
+   
+
+.world-pro-img img {
+    width: 100%;
+    height: 100px;
+}
+
+.tex-box h2 {
+    position: absolute;
+    top: 100px;
+    left: 130px;
+    width: 50%;
+    font-size: 10px;
+    color: #28a3c3;
+}
+
+
+
+.tex-box p {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 80%;
+    text-align: center;
+    font-size: 10px;
+    color: #c6c1bc;
+    margin-top: 20px;
+}
+
+.container {
+    flex-direction: column-reverse;
+    text-align: center;
+    margin-left: 40px;
+    
+}
+
+.one {
+    display: flex;
+    margin: 20px;
+    
+}
+
+.info-img img {
+    width: 100%;
+    height: 250px;
+    margin: 20px;
+    border-radius: 100%;
+
+}
+.Track-section {   
+    padding: 30px 0px;
+    width: 100%;
+    height: 300px;
+    background-color: #f67568;
+   }
+
+   .mate-box h2 {
+    padding-left: 7px;
+    margin-top: 7px;
+    text-align: center;
+    font-size: 22px;
+    width: 100%;
+    color:#FFF;
+}
+
+.mate-box p {
+    margin-left: 10px;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 12px;
+    text-align: center;
+    color: #c6c1bc;
+}
+.title {
+    margin-left: 120px;
+    
+}
+.time-box p {
+    width: 100%;
+    padding: 20px;
+}
+.style-box {
+    padding: 0px 0px;
+}
+
+.TRANSPORT h2 {
+    width: 100%;
+    font-size: 22px;
+    padding-left: 20px;
+    color: #cac2c2;
+
+}
+
+.Quote p {
+    padding-left: 60px;
+    font-size: 13px;
+    color: #c6c1bc;
+}
+.my-btn {
+    width: auto;
+}
+
+.desing {
+    padding: 0px 0px;
+}
+
+.magnam {
+    padding: 4px 27px;
+}
+
+}
